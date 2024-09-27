@@ -1,0 +1,26 @@
+.header {
+    grid-area: h;
+    background-color: orange;
+    padding: 10px;
+}
+
+.nav {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.travel {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation-link {
+    border: none;
+    background-color: rgba(200, 90, 150, 0.7);
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+}

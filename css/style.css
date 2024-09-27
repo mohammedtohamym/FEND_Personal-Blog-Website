@@ -1,0 +1,55 @@
+@import "css-modules/erick-myer-reset.css";
+@import "css-modules/header.css";
+@import "css-modules/nav.css";
+@import "css-modules/footer.css";
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 10% auto 10% ;
+    gap: 20px;
+    grid-template-areas: 
+    "h"
+    "c"
+    "f"
+    ;
+    height: 100vh;
+}
+
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.article-title {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.article-preview {
+    margin: 10px;
+}
+
+.content {
+    grid-area: c;
+    background-color: hsl(60, 80%, 62%);
+    display: grid;
+    gap: 10%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+
+}
+
+.article-link{
+    border: 2px solid rgb(245, 137, 155);
+    border-left: none;
+    border-top: none;
+}
+/* a {
+    border: 2px dashed rgb(255, 12, 180);
+} */
