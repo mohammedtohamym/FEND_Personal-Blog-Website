@@ -19,6 +19,7 @@
 }
 
 
+
 .article {
     display: flex;
     flex-direction: column;
@@ -46,6 +47,18 @@
     grid-template-columns: 45% 45%;
     grid-template-rows: 45% 45%;
 
+}
+
+
+@media (max-width: 500px) {
+    .content {
+        grid-area: c;
+        background-color: hsl(60, 80%, 62%);
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        justify-content: flex-start;
+    }
 }
 
 

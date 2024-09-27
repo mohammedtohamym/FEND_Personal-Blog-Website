@@ -22,7 +22,7 @@
     grid-area: c;
     background-color: hsl(60, 80%, 62%);
     display: grid;
-    gap: 1%;
+    /* gap: 1%; */
     grid-template-columns: repeat(9, 10%);
     grid-template-rows: repeat(9, 10%);
     grid-template-areas: 
@@ -38,12 +38,27 @@
     ;
 }
 
+@media (max-width: 500px){
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+
+
+    .article-title {
+        margin: 5px;
+    }
+}
+
 
 .article-title {
     grid-area: t;
     display: flex;
     justify-content: center;
-    margin: 5%;
+    margin: 20px;
+    border: 2px solid;
 }
 
 
