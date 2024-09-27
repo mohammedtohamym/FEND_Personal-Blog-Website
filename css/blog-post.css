@@ -1,0 +1,72 @@
+@import "../css/css-modules/erick-myer-reset.css";
+@import "../css/css-modules/header.css";
+@import "../css/css-modules/nav.css";
+@import "../css/css-modules/footer.css";
+
+
+.container {
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 10% auto 10% ;
+    gap: 20px;
+    grid-template-areas: 
+    "h"
+    "c"
+    "f"
+    ;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    grid-area: c;
+    background-color: hsl(60, 80%, 62%);
+    display: grid;
+    gap: 1%;
+    grid-template-columns: repeat(9, 10%);
+    grid-template-rows: repeat(9, 10%);
+    grid-template-areas: 
+    ". . . t t t . . ."
+    ". . . h h h . . ."
+    ". . . h h h . . ."
+    ". . . h h h . . s"
+    ". . . h h h . . s"
+    ". . . h h h . . s"
+    ". . . h h h . . ."
+    ". . . . . . . . ."
+    ". . a a a a a . ."
+    ;
+}
+
+
+.article-title {
+    grid-area: t;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+
+.article-contnet {
+    grid-area: h;
+    display: flex;
+    justify-content: center;
+}
+
+
+.author-info {
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    justify-content: center;
+}
+
+
+.social-sharing {
+    grid-area: s;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    justify-content: center;
+}

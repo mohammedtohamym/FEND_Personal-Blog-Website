@@ -26,14 +26,17 @@
     gap: 10px;
 }
 
+
 .article-title {
     margin-top: 10px;
     font-size: 1.5em;
 }
 
+
 .article-preview {
     margin: 10px;
 }
+
 
 .content {
     grid-area: c;
@@ -44,6 +47,7 @@
     grid-template-rows: 45% 45%;
 
 }
+
 
 .article-link{
     border: 2px solid rgb(245, 137, 155);
