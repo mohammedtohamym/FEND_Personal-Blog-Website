@@ -102,3 +102,7 @@ h4 {
 .author-info-head {
     font-weight: 600    ;
 }
+
+.article-contnet {
+    display: inline-block;
+}
