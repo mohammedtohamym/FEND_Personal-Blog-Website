@@ -10,7 +10,7 @@
     grid-template-columns: 100% ;
     grid-template-rows: 10% auto 10% ;
     gap: 20px;
-    grid-template-areas: 
+    grid-template-areas:
     "h"
     "c"
     "f"
@@ -20,7 +20,7 @@
 
 
 
-.article {
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,6 @@
 
 .article-title {
     margin-top: 10px;
-    font-size: 1.5em;
 }
 
 
@@ -62,7 +61,7 @@
 }
 
 
-.article-link{
+.card{
     border: 2px solid rgb(245, 137, 155);
     border-left: none;
     border-top: none;
@@ -70,3 +69,41 @@
 /* a {
     border: 2px dashed rgb(255, 12, 180);
 } */
+
+.article-img {
+    width: 15%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+h3  {
+    font-size: 1em;
+    font-weight: 900;
+    font-style: oblique;
+
+}
+
+a {
+    font-size: 1em;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+q {
+    font-size: 1em;
+    font-weight: 300;
+    font-style: italic;
+}
